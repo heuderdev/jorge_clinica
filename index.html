@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Monai Clinic · Estética facial e corporal em Planaltina - DF</title>
+  <meta name="description" content="Estética que acolhe, transforma e inspira. Botox, preenchimento, bioestimulador de colágeno, PDRN, ultrassom microfocado, laser e mais, em Planaltina - DF.">
+  <meta name="theme-color" content="#F1F0EC">
+  <link rel="canonical" href="https://monaiclinic.com.br/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Monai Clinic">
+  <meta property="og:title" content="Monai Clinic · Estética que acolhe, transforma e inspira">
+  <meta property="og:description" content="Sua melhor versão começa aqui, de dentro para fora. Estética facial e corporal em Planaltina - DF.">
+  <meta property="og:url" content="https://monaiclinic.com.br/">
+  <meta property="og:image" content="https://monaiclinic.com.br/assets/img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="assets/fonts/Fahkwang-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Fahkwang-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/hero.webp" as="image">
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Monai Clinic",
+    "description": "Estética facial e corporal.",
+    "url": "https://monaiclinic.com.br/",
+    "image": "https://monaiclinic.com.br/assets/img/og.jpg",
+    "email": "clinicmonai@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Floriano Peixoto, Quadra 66, Lote 04",
+      "addressLocality": "Planaltina",
+      "addressRegion": "DF",
+      "addressCountry": "BR"
+    },
+    "sameAs": ["https://www.instagram.com/monai.clinic/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- Símbolos reutilizados em toda a página -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="monogram" viewBox="210 313 1204 1669">
+      <g fill="none" stroke="currentColor" stroke-width="38">
+        <path d="M249 915a563 563 0 0 1 1126 0v465a563 563 0 0 1-1126 0z"/>
+        <path d="M465 1823V971h25c45 0 90 9 123 22"/>
+        <path d="M666 1019c59 31 109 81 146 151 48-110 173-199 328-199h19v291"/>
+        <path d="M1177 771H949a322.5 322.5 0 0 0 0 645h228"/>
+      </g>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 24 24">
+      <path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.4"/>
+    </symbol>
+  </svg>
+
+  <!-- Abertura: o monograma se desenha uma vez por visita -->
+  <div class="intro" aria-hidden="true">
+    <svg viewBox="210 313 1204 1669" class="intro__mark">
+      <g fill="none" stroke="currentColor" stroke-width="30">
+        <path pathLength="1" d="M249 915a563 563 0 0 1 1126 0v465a563 563 0 0 1-1126 0z"/>
+        <path pathLength="1" d="M465 1823V971h25c45 0 90 9 123 22"/>
+        <path pathLength="1" d="M666 1019c59 31 109 81 146 151 48-110 173-199 328-199h19v291"/>
+        <path pathLength="1" d="M1177 771H949a322.5 322.5 0 0 0 0 645h228"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- NAVBAR: responsiva em HTML e CSS puro (checkbox), como pedido no briefing -->
+  <header class="header" id="topo">
+    <div class="header__inner">
+      <a class="brand" href="#inicio" aria-label="Monai Clinic, voltar ao início">
+        <img src="assets/img/logo-dark.webp" width="1400" height="187" alt="Monai Clinic">
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Abrir ou fechar o menu">
+      <label class="burger" for="nav-toggle" aria-hidden="true"><span></span><span></span></label>
+
+      <nav class="nav" aria-label="Principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#resultado">Resultado</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--dark nav__cta" href="#contato" data-agendar>Agendar avaliação</a>
+        <p class="nav__foot">Estética que acolhe,<br>transforma e inspira.</p>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- HERO: texto à esquerda, mulher à direita -->
+    <section class="hero" id="inicio">
+      <div class="hero__script" aria-hidden="true"></div>
+      <div class="hero__grid wrap">
+        <div class="hero__text">
+          <p class="eyebrow hero__eyebrow"><span class="rise">Estética facial e corporal · Planaltina, DF</span></p>
+          <h1 class="hero__title">
+            <span class="line"><span class="rise" style="--d:.1s">Estética que</span></span>
+            <span class="line"><span class="rise" style="--d:.18s"><em>acolhe,</em></span></span>
+            <span class="line"><span class="rise" style="--d:.26s">transforma</span></span>
+            <span class="line"><span class="rise" style="--d:.34s">e inspira.</span></span>
+          </h1>
+          <p class="hero__lead fade" style="--d:.55s">Sua melhor versão começa aqui, de dentro para fora. Cada tratamento é conduzido com delicadeza, técnica e um plano pensado só para você.</p>
+          <div class="hero__actions fade" style="--d:.7s">
+            <a class="btn btn--dark" href="#contato" data-agendar>Agendar avaliação <svg class="ico"><use href="#arrow"/></svg></a>
+            <a class="link" href="#tratamentos">Conhecer os tratamentos</a>
+          </div>
+          <ul class="tags fade" style="--d:.85s" aria-label="Valores da Monai">
+            <li>Exclusiva</li><li>Confiável</li><li>Sensível</li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__arch">
+            <img data-parallax="0.06" src="assets/img/hero.webp" width="2400" height="1602" alt="Mulher de olhos fechados tocando o rosto, com a pele luminosa" fetchpriority="high">
+          </div>
+          <div class="hero__oval" aria-hidden="true">
+            <img src="assets/img/p04-s.webp" width="1000" height="667" alt="" loading="lazy">
+          </div>
+          <div class="seal" aria-hidden="true">
+            <svg viewBox="0 0 200 200" class="seal__text">
+              <defs><path id="sealPath" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs>
+              <text><textPath href="#sealPath" textLength="480">ESTÉTICA FACIAL E CORPORAL · MONAI CLINIC · </textPath></text>
+            </svg>
+            <svg class="seal__mark"><use href="#monogram"/></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faixa contínua com os tratamentos -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Botox</span><span>Preenchimento</span><span>Bioestimulador de Colágeno</span><span>PDRN</span><span>Ultrassom Microfocado</span><span>Laser PISOM</span><span>Limpeza de Pele</span><span>Microagulhamento</span><span>Mesoterapia Capilar</span>
+        <span>Botox</span><span>Preenchimento</span><span>Bioestimulador de Colágeno</span><span>PDRN</span><span>Ultrassom Microfocado</span><span>Laser PISOM</span><span>Limpeza de Pele</span><span>Microagulhamento</span><span>Mesoterapia Capilar</span>
+      </div>
+    </div>
+
+    <!-- Mosaico da marca -->
+    <section class="mosaic" aria-label="A essência da Monai">
+      <div class="cell cell--cream cell--oval reveal">
+        <div class="cell__script" aria-hidden="true"></div>
+        <div class="oval"><p>Cada traço seu, um cuidado nosso.</p></div>
+      </div>
+      <figure class="cell cell--photo reveal"><img src="assets/img/p11-s.webp" width="667" height="1000" alt="Retrato em preto e branco de mulher com véu translúcido" loading="lazy"></figure>
+      <div class="cell cell--taupe reveal">
+        <p class="cell__quote">Sua melhor versão começa aqui, de dentro para fora.</p>
+        <span class="cell__small">monaiclinic.com.br</span>
+      </div>
+      <figure class="cell cell--photo cell--wide reveal"><img src="assets/img/p09.webp" width="1800" height="1200" alt="Retrato de mulher com a luz atravessando o rosto" loading="lazy"></figure>
+      <div class="cell cell--dark cell--logo reveal">
+        <img src="assets/img/logo-light.webp" width="1400" height="187" alt="Monai Clinic" loading="lazy">
+      </div>
+      <figure class="cell cell--photo reveal"><img src="assets/img/p14-s.webp" width="665" height="1000" alt="Profissional realizando um cuidado corporal" loading="lazy"></figure>
+      <div class="cell cell--dark cell--quote reveal">
+        <p class="cell__quote">Delicadeza, técnica e propósito em cada cuidado.</p>
+        <svg class="cell__mark" aria-hidden="true"><use href="#monogram"/></svg>
+      </div>
+    </section>
+
+    <!-- TRATAMENTOS -->
+    <section class="section treatments" id="tratamentos">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Tratamentos</p>
+          <h2 class="title">Nove caminhos para <br>a <em>sua</em> melhor versão.</h2>
+          <p class="section__lead">Na avaliação, entendemos o que você deseja e indicamos o que faz sentido para a sua pele, sempre preservando a naturalidade.</p>
+        </header>
+
+        <div class="tx">
+          <div class="tx__stage" aria-hidden="true">
+            <div class="tx__arch">
+              <img class="is-active" data-stage="0" src="assets/img/p06.webp" alt="" loading="lazy">
+              <img data-stage="1" src="assets/img/p03.webp" alt="" loading="lazy">
+              <img data-stage="2" src="assets/img/p13.webp" alt="" loading="lazy">
+              <img data-stage="3" src="assets/img/p08.webp" alt="" loading="lazy">
+              <img data-stage="4" src="assets/img/p05.webp" alt="" loading="lazy">
+              <img data-stage="5" src="assets/img/p10.webp" alt="" loading="lazy">
+              <img data-stage="6" src="assets/img/p02.webp" alt="" loading="lazy">
+              <img data-stage="7" src="assets/img/p15.webp" alt="" loading="lazy">
+              <img data-stage="8" src="assets/img/p01.webp" alt="" loading="lazy">
+            </div>
+          </div>
+
+          <ol class="tx__list">
+            <li class="tx__item is-open">
+              <h3><button type="button" class="tx__btn" aria-expanded="true" aria-controls="tx-0"><span class="tx__n">01</span><span class="tx__name">Botox</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-0"><div class="tx__body">
+                <p>O Botox é um tratamento indicado para suavizar linhas de expressão e prevenir o aparecimento de rugas. Seu principal objetivo é proporcionar uma aparência mais leve e descansada, preservando a naturalidade e a harmonia facial.</p>
+                <a class="link" href="#contato" data-agendar="Botox">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-1"><span class="tx__n">02</span><span class="tx__name">Preenchimento</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-1"><div class="tx__body">
+                <p>O preenchimento facial devolve volume, contorno e sustentação às áreas que sofreram perda com o tempo. É indicado para realçar os traços naturais, equilibrar proporções e promover rejuvenescimento de forma sutil e segura.</p>
+                <a class="link" href="#contato" data-agendar="Preenchimento">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-2"><span class="tx__n">03</span><span class="tx__name">Bioestimulador de Colágeno</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-2"><div class="tx__body">
+                <p>O bioestimulador atua de dentro para fora, estimulando a produção natural de colágeno pelo organismo. O resultado é uma pele mais firme, com melhora gradual na textura e sustentação, promovendo um rejuvenescimento progressivo e natural.</p>
+                <a class="link" href="#contato" data-agendar="Bioestimulador de Colágeno">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-3"><span class="tx__n">04</span><span class="tx__name">PDRN</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-3"><div class="tx__body">
+                <p>O PDRN é um tratamento regenerador que estimula a renovação celular, melhora a textura e promove hidratação profunda da pele. Também conhecido como “DNA da pele”, ele auxilia na recuperação cutânea, conferindo luminosidade e vitalidade.</p>
+                <a class="link" href="#contato" data-agendar="PDRN">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-4"><span class="tx__n">05</span><span class="tx__name">Ultrassom Microfocado</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-4"><div class="tx__body">
+                <p>O ultrassom microfocado atua nas camadas mais profundas da pele, estimulando a produção de colágeno e promovendo efeito lifting sem cortes ou agulhas. É uma tecnologia avançada, segura e eficaz no combate à flacidez facial e corporal.</p>
+                <a class="link" href="#contato" data-agendar="Ultrassom Microfocado">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-5"><span class="tx__n">06</span><span class="tx__name">Laser PISOM</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-5"><div class="tx__body">
+                <p>O Laser PISOM é indicado para rejuvenescimento facial, clareamento de manchas, tratamento de poros dilatados e melhora da textura da pele. Sua ação estimula o colágeno e promove renovação celular, resultando em uma pele mais uniforme e saudável.</p>
+                <a class="link" href="#contato" data-agendar="Laser PISOM">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-6"><span class="tx__n">07</span><span class="tx__name">Limpeza de Pele</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-6"><div class="tx__body">
+                <p>A limpeza de pele é um procedimento essencial para manter a saúde cutânea. Remove impurezas, células mortas e excesso de oleosidade, favorecendo a renovação celular e preparando a pele para receber outros tratamentos estéticos.</p>
+                <a class="link" href="#contato" data-agendar="Limpeza de Pele">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-7"><span class="tx__n">08</span><span class="tx__name">Microagulhamento</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-7"><div class="tx__body">
+                <p>O microagulhamento estimula a regeneração natural da pele por meio da indução de colágeno. É indicado para tratar manchas, cicatrizes de acne, linhas finas e poros dilatados, promovendo uma pele mais firme, uniforme e rejuvenescida.</p>
+                <a class="link" href="#contato" data-agendar="Microagulhamento">Quero agendar</a>
+              </div></div>
+            </li>
+            <li class="tx__item">
+              <h3><button type="button" class="tx__btn" aria-expanded="false" aria-controls="tx-8"><span class="tx__n">09</span><span class="tx__name">Mesoterapia Capilar</span><span class="tx__plus"></span></button></h3>
+              <div class="tx__panel" id="tx-8"><div class="tx__body">
+                <p>A mesoterapia capilar é um tratamento que fortalece os fios e estimula o crescimento capilar por meio da aplicação de vitaminas e ativos diretamente no couro cabeludo. Proporciona nutrição profunda e melhora significativa na qualidade dos fios.</p>
+                <a class="link" href="#contato" data-agendar="Mesoterapia Capilar">Quero agendar</a>
+              </div></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section class="section team" id="equipe">
+      <div class="wrap team__grid">
+        <header class="team__intro reveal">
+          <p class="eyebrow">Equipe</p>
+          <h2 class="title">Quem cuida <br>de <em>você.</em></h2>
+          <p class="section__lead">Na Monai, é a mesma mão que escuta, planeja e realiza. Seus tratamentos são conduzidos pelas doutoras Natacha e Willk, do primeiro encontro ao acompanhamento.</p>
+          <a class="link" href="#contato" data-agendar>Agendar com a equipe</a>
+        </header>
+
+        <article class="doctor reveal">
+          <div class="doctor__portrait">
+            <img src="assets/img/dra-natacha.webp" width="1000" height="1333" alt="Dra. Natacha, de cabelos longos e escuros, com blusa branca e colar dourado" loading="lazy">
+          </div>
+          <h3 class="doctor__name">Dra. Natacha</h3>
+          <p>Escuta atenta e olhar para o detalhe, para que cada tratamento respeite os seus traços.</p>
+        </article>
+
+        <article class="doctor doctor--offset reveal">
+          <div class="doctor__portrait doctor__portrait--dark">
+            <img src="assets/img/dra-willk.webp" width="1000" height="1333" alt="Dra. Willk, de cabelos longos loiros e ondulados, com blusa marrom de um ombro só" loading="lazy">
+          </div>
+          <h3 class="doctor__name">Dra. Willk</h3>
+          <p>Técnica e sensibilidade em cada etapa, com um plano feito sob medida para você.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESULTADO: os 6 antes e depois são preenchidos em script.js (lista RESULTADOS) -->
+    <section class="section results" id="resultado">
+      <div class="wrap">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Resultado</p>
+          <h2 class="title">O antes e o depois, <br>com <em>naturalidade.</em></h2>
+          <p class="section__lead">Arraste a linha em cada imagem para comparar.</p>
+        </header>
+        <div class="ba-grid" id="ba-grid"></div>
+        <p class="results__note">Imagens publicadas somente com autorização das pacientes. Os resultados variam de pessoa para pessoa.</p>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS: preenchidos em script.js (lista DEPOIMENTOS) -->
+    <section class="testimonials" id="depoimentos">
+      <div class="testimonials__media reveal">
+        <img src="assets/img/p12.webp" width="1288" height="1800" alt="Mulher sorrindo com a mão junto ao rosto, em preto e branco" loading="lazy">
+      </div>
+      <div class="testimonials__body reveal">
+        <p class="eyebrow eyebrow--light">Depoimentos</p>
+        <div id="depo-root">
+          <h2 class="title title--light">Transformamos cuidado em <em>autoestima.</em></h2>
+          <p class="testimonials__lead">Em breve, as histórias de quem viveu a experiência Monai estarão aqui. Enquanto isso, acompanhe o nosso dia a dia no Instagram.</p>
+          <a class="btn btn--light" href="https://www.instagram.com/monai.clinic/" target="_blank" rel="noopener">@monai.clinic <svg class="ico"><use href="#arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato">
+      <div class="wrap contact__grid">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Contato</p>
+          <h2 class="title">Vamos começar <br>pelo <em>seu</em> momento.</h2>
+
+          <form class="form" id="form" action="mailto:clinicmonai@gmail.com" method="post" enctype="text/plain">
+            <!-- Armadilha para robôs: invisível para pessoas -->
+            <div class="form__trap" aria-hidden="true">
+              <label>Site <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+            </div>
+            <label class="field">
+              <span>Seu nome</span>
+              <input type="text" name="nome" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Telefone ou WhatsApp</span>
+              <input type="tel" name="telefone" autocomplete="tel" inputmode="tel" required>
+            </label>
+            <label class="field field--full">
+              <span>Tenho interesse em</span>
+              <select name="tratamento" id="form-tratamento">
+                <option value="">Ainda não sei, quero uma avaliação</option>
+                <option>Botox</option>
+                <option>Preenchimento</option>
+                <option>Bioestimulador de Colágeno</option>
+                <option>PDRN</option>
+                <option>Ultrassom Microfocado</option>
+                <option>Laser PISOM</option>
+                <option>Limpeza de Pele</option>
+                <option>Microagulhamento</option>
+                <option>Mesoterapia Capilar</option>
+              </select>
+            </label>
+            <button class="btn btn--dark field--full" type="submit"><span id="form-label">Enviar por e-mail</span> <svg class="ico"><use href="#arrow"/></svg></button>
+            <p class="form__hint field--full" id="form-hint" role="status">Sua mensagem abre pronta no seu aplicativo de e-mail, é só enviar.</p>
+          </form>
+
+          <dl class="contact__list">
+            <div>
+              <dt>Endereço</dt>
+              <dd>Avenida Floriano Peixoto, Quadra 66, Lote 04<br>Planaltina - DF</dd>
+            </div>
+            <div data-whatsapp-only hidden>
+              <dt>WhatsApp</dt>
+              <dd><a id="contact-phone" href="#contato" data-agendar></a></dd>
+            </div>
+            <div>
+              <dt>E-mail</dt>
+              <dd><a href="mailto:clinicmonai@gmail.com">clinicmonai@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Instagram</dt>
+              <dd><a href="https://www.instagram.com/monai.clinic/" target="_blank" rel="noopener">@monai.clinic</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="contact__side reveal">
+          <div class="map">
+            <iframe title="Mapa com a localização da Monai Clinic em Planaltina - DF" src="https://www.google.com/maps?q=Avenida+Floriano+Peixoto+Quadra+66+Lote+04+Planaltina+DF&amp;hl=pt-BR&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="map__cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Avenida+Floriano+Peixoto+Quadra+66+Lote+04+Planaltina+DF" target="_blank" rel="noopener">Traçar rota <svg class="ico"><use href="#arrow"/></svg></a>
+          </div>
+          <figure class="contact__place">
+            <img src="assets/img/local.webp" width="1024" height="539" alt="Recepção clara, com balcão branco e painéis de madeira" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <p class="footer__claim">Estética que acolhe,<br>transforma e inspira.</p>
+        <ul class="footer__nav">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#resultado">Resultado</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <address class="footer__addr">
+          Avenida Floriano Peixoto, Quadra 66, Lote 04<br>Planaltina - DF<br>
+          <a href="mailto:clinicmonai@gmail.com">clinicmonai@gmail.com</a><br>
+          <a href="https://www.instagram.com/monai.clinic/" target="_blank" rel="noopener">@monai.clinic</a>
+        </address>
+      </div>
+      <img class="footer__logo" src="assets/img/monai-light.webp" width="1826" height="386" alt="Monai" loading="lazy">
+      <p class="footer__legal">© <span id="ano">2026</span> Monai Clinic · CNPJ 61.721.509/0001-18</p>
+    </div>
+  </footer>
+
+  <a class="float-cta" href="#contato" data-agendar>Agendar <svg class="ico"><use href="#arrow"/></svg></a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
